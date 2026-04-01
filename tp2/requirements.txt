@@ -1,6 +1,7 @@
 # Python 3.11.x for CUDA Version
 python_version = "3.11"
 
+# Repository for installing PyTorch with CUDA support
 --index-url https://download.pytorch.org/whl/cu121
 
 torch # PyTorch for deep learning (Backend for Sentence Transformers)
