@@ -1,30 +1,18 @@
 # Python 3.11.x for CUDA Version
 python_version = "3.11"
 
-# Deep Learning (Backend for Sentence Transformers)
 --index-url https://download.pytorch.org/whl/cu121
-torch
 
-# NLP and Language Detection
-fast-langdetect
-nltk
-sentence-transformers
-
-# Data Manipulation and Numerics
-numpy
-pandas
-
-# Machine Learning
-scikit-learn
-xgboost
-
-# Clustering and Dimensionality Reduction
-hdbscan
-scipy
-umap-learn
-
-# Visualization
-matplotlib
-
-# File management
-joblib
+torch # PyTorch for deep learning (Backend for Sentence Transformers)
+fast-langdetect # language detection
+nltk # natural language processing
+sentence-transformers # sentence transformers for text embedding generation
+numpy # fundamental package for scientific computing
+pandas # tabular data manipulation and analysis
+scikit-learn # machine learning library for Python
+xgboost # gradient boosting framework for machine learning
+hdbscan # density-based clustering
+scipy # scientific computing library for hierarchical clustering
+umap-learn # uniform manifold approximation and projection for dimensionality reduction
+matplotlib # plotting library for creating static, animated, and interactive visualizations
+joblib # for saving and loading models and data
