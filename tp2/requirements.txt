@@ -1,6 +1,8 @@
+# Python 3.11.x for CUDA Version
+python_version = "3.11"
+
 # Deep Learning (Backend for Sentence Transformers)
-# install this with: --index-url https://download.pytorch.org/whl/cu121 to use cuda (GPU)
-# Python 3.11.x for CUDA Version: 12.6 -> py -3.11 -m venv torch-env
+--index-url https://download.pytorch.org/whl/cu121
 torch
 
 # NLP and Language Detection
