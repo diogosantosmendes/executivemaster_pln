@@ -1,0 +1,28 @@
+# Deep Learning (Backend for Sentence Transformers)
+# install this with: --index-url https://download.pytorch.org/whl/cu121 to use cuda (GPU)
+# Python 3.11.x for CUDA Version: 12.6 -> py -3.11 -m venv torch-env
+torch
+
+# NLP and Language Detection
+fast-langdetect
+nltk
+sentence-transformers
+
+# Data Manipulation and Numerics
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Clustering and Dimensionality Reduction
+hdbscan
+scipy
+umap-learn
+
+# Visualization
+matplotlib
+
+# File management
+joblib
