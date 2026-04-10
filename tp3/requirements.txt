@@ -1,0 +1,17 @@
+# Python 3.11.x for CUDA Version
+python_version = "3.11"
+
+# Repository for installing PyTorch with CUDA support
+--index-url https://download.pytorch.org/whl/cu121
+
+torch # PyTorch for deep learning (Backend for Sentence Transformers)
+torchaudio # Library for audio processing with PyTorch
+torchvision # Library for computer vision with PyTorch
+accelerate>=1.1.0 # Hugging Face Accelerate for distributed training
+
+numpy # fundamental package for scientific computing
+pandas # data manipulation and analysis library
+scikit-learn # machine learning library for Python
+librosa # library for audio and music analysis
+sounddevice # library for audio playback and recording
+transformers # Hugging Face Transformers for pre-trained models

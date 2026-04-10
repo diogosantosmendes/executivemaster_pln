@@ -1,0 +1,104 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  Random Forest                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+Total audio files loaded: 500
+ --- Data Split ---
+ --- Extracting Features for Traditional ML ---
+ --- Training with Traditional ML (Random Forest) ---
+ --- Evaluating Traditional ML ---
+ Traditional ML Accuracy: 0.6800
+ Traditional ML Precision: 0.6902
+ Traditional ML Recall: 0.6800
+ Traditional ML F1 Score: 0.6680
+ ----------------------------------------------------
+Total audio files loaded: 700
+ --- Data Split ---
+ --- Extracting Features for Traditional ML ---
+ --- Training with Traditional ML (Random Forest) ---
+ --- Evaluating Traditional ML ---
+ Traditional ML Accuracy: 0.6571
+ Traditional ML Precision: 0.6518
+ Traditional ML Recall: 0.6571
+ Traditional ML F1 Score: 0.6439
+ ----------------------------------------------------
+Total audio files loaded: 990
+ --- Data Split ---
+ --- Extracting Features for Traditional ML ---
+ --- Training with Traditional ML (Random Forest) ---
+ --- Evaluating Traditional ML ---
+ Traditional ML Accuracy: 0.5707
+ Traditional ML Precision: 0.5636
+ Traditional ML Recall: 0.5707
+ Traditional ML F1 Score: 0.5622
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  AST                                            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+Total audio files loaded: 100
+ --- Extracting Features for Transformer (AST) ---
+ --- Data Split ---
+ --- Loading Transformer model (AST) ---
+ Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 203/203 [00:00<00:00, 2601.50it/s]
+ ASTForAudioClassification LOAD REPORT from: MIT/ast-finetuned-audioset-10-10-0.4593
+ --- Training Transformer (AST) ---
+ Epoch 0 done | Val Acc: 0.7000
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.11s/it]
+ Epoch 1 done | Val Acc: 0.8000
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.11s/it]
+ Epoch 2 done | Val Acc: 0.8000
+ Epoch 3 done | Val Acc: 0.9000
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.38s/it]
+ Epoch 4 done | Val Acc: 0.9000
+ --- Evaluating Transformer (AST) ---
+ Transformer (AST) Accuracy: 0.9000
+ Transformer (AST) Precision: 0.8500
+ Transformer (AST) Recall: 0.9000
+ Transformer (AST) F1 Score: 0.8667
+ ----------------------------------------------------
+Total audio files loaded: 150
+ --- Extracting Features for Transformer (AST) ---
+ --- Data Split ---
+ --- Loading Transformer model (AST) ---
+ Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 203/203 [00:00<00:00, 2601.50it/s]
+ ASTForAudioClassification LOAD REPORT from: MIT/ast-finetuned-audioset-10-10-0.4593
+ --- Training Transformer (AST) ---
+ Epoch 0 done | Val Acc: 0.7333
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.21s/it]
+ Epoch 1 done | Val Acc: 0.6000
+ Epoch 2 done | Val Acc: 0.8667
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.34s/it]
+ Epoch 3 done | Val Acc: 0.9333
+ Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.41s/it]
+ Epoch 4 done | Val Acc: 0.9333
+ Epoch 5 done | Val Acc: 0.9333
+ Epoch 6 done | Val Acc: 0.9333
+ Early stopping!
+ --- Evaluating Transformer (AST) ---
+ Transformer (AST) Accuracy: 0.9333
+ Transformer (AST) Precision: 0.9667
+ Transformer (AST) Recall: 0.9333
+ Transformer (AST) F1 Score: 0.9333
+ ----------------------------------------------------
+Total audio files loaded: 200
+--- Extracting Features for Transformer (AST) ---
+--- Data Split ---
+--- Loading Transformer model (AST) ---
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 203/203 [00:00<00:00, 3172.51it/s]
+ASTForAudioClassification LOAD REPORT from: MIT/ast-finetuned-audioset-10-10-0.4593
+--- Training Transformer (AST) ---
+Epoch 0 done | Val Acc: 0.6000
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.21s/it]
+Epoch 1 done | Val Acc: 0.6000
+Epoch 2 done | Val Acc: 0.6500
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.29s/it]
+Epoch 3 done | Val Acc: 0.7500
+Writing model shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.26s/it]
+Epoch 4 done | Val Acc: 0.6500
+Epoch 5 done | Val Acc: 0.7500
+Epoch 6 done | Val Acc: 0.7500
+Epoch 7 done | Val Acc: 0.7500
+Early stopping!
+--- Evaluating Transformer (AST) ---
+Transformer (AST) Accuracy: 0.6000
+Transformer (AST) Precision: 0.5733
+Transformer (AST) Recall: 0.6000
+Transformer (AST) F1 Score: 0.5863
