@@ -53,13 +53,25 @@ with 150 audio files (15/genre):
 ```
 with 200 audio files (20/genre):
 ```
-    Accuracy:   0.8095
-    Precision:  0.8889
-    Recall:     0.8095
-    F1 Score:   0.8159
+    Accuracy:   0.6000
+    Precision:  0.5733
+    Recall:     0.6000
+    F1 Score:   0.5863
 ```
 
+### Inference tests:
 
-Future work
-
-check metrics by genre 
+| Music | Random Forest | AST |
+|----------------|-------------------------------|-----------------------------|
+| B B King - The Thrill Is Gone | reggae | jazz | 
+| Beethoven - Fur Elise | classical | classical | 
+| Bob Marley & The Wailers - Three Little Birds | reggae | reggae | 
+| Britney Spears - Baby One More Time | jazz | pop | 
+| Daft Punk - Harder, Better, Faster, Stronger | classical | hiphop | 
+| Eminem - Lose Yourself | reggae | hiphop | 
+| Gloria Gaynor - I Will Survive | reggae | disco | 
+| Guns N' Roses - Civil War | jazz | country | 
+| John Denver - Take Me Home, Country Roads | jazz | country | 
+| Jo�o Gilberto & Stan Getz - The Girl From Ipanema | jazz | jazz | 
+| Metallica - Enter Sandman | blues | metal | 
+| Star Wars- The Imperial March | jazz | classical | 
